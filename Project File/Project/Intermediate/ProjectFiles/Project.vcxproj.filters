@@ -11,6 +11,7 @@
     <None Include="..\..\Source\ProjectEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -29,6 +30,12 @@
     <Filter Include="Source\Project">
       <UniqueIdentifier>{5460B403-47FB-3162-AE19-8CC3185A66FA}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Project\PlayerCharacter.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\PlayerCharacter.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Project\Project.Build.cs">
       <Filter>Source\Project</Filter>
     </None>

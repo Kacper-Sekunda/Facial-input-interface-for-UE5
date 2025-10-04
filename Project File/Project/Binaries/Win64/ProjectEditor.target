@@ -3474,6 +3474,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/OSC/Binaries/Win64/UnrealEditor-OSC.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/OSC/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UnrealEditor-ProceduralMeshComponent.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -26660,6 +26668,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/OSC/OSC.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
 			"Type": "UFS"
 		},
@@ -26845,6 +26857,7 @@
 		"Niagara",
 		"NiagaraSimCaching",
 		"NullSourceCodeAccess",
+		"OSC",
 		"ObjectMixer",
 		"OnlineBase",
 		"OnlineServices",

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\projects\\unreal projects\\facial-input-interface-for-ue5\\project file\\project\\intermediate\\build\\win64\\unrealeditor\\inc\\project\\uht\\project.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\projects\\unreal projects\\facial-input-interface-for-ue5\\project file\\project\\intermediate\\build\\win64\\x64\\projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\projects\\unreal projects\\facial-input-interface-for-ue5\\project file\\project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\project\\definitions.project.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
