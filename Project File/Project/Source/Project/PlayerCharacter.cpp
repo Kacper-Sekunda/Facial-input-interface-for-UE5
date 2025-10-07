@@ -35,8 +35,10 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	}
 
 	UEnhancedInputComponent* Input = Cast<UEnhancedInputComponent>(PlayerInputComponent);
-	Input->BindAction(IA_Move, ETriggerEvent::Triggered, this, &APlayerCharacter::Move);
-	Input->BindAction(IA_Look, ETriggerEvent::Triggered, this, &APlayerCharacter::Look);
+
+	if (!InputActions) return;
+	Input->BindAction(InputActions->Move, ETriggerEvent::Triggered, this, &APlayerCharacter::Move);
+	Input->BindAction(InputActions->Look, ETriggerEvent::Triggered, this, &APlayerCharacter::Look);
 }
 
 void APlayerCharacter::BeginPlay()
@@ -63,7 +65,7 @@ void APlayerCharacter::Move(const FInputActionValue& Value)
 
 void APlayerCharacter::Look(const FInputActionValue& Value)
 {
-	FVector2D LookAxisVector = Value.Get<FVector2D>();
+	FVector2D LookAxisVector = (Value.Get<FVector2D>()) * MouseSensitivity;
 
 	if (Controller)
 	{

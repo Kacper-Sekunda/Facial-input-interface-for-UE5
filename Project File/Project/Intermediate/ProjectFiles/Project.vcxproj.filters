@@ -30,6 +30,12 @@
     <Filter Include="Source\Project">
       <UniqueIdentifier>{5460B403-47FB-3162-AE19-8CC3185A66FA}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Project\InputDataConfig.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\InputDataConfig.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Project\PlayerCharacter.cpp">
       <Filter>Source\Project</Filter>
     </ClCompile>

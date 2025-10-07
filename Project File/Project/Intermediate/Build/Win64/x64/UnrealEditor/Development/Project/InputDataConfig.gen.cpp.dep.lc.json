@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\projects\\unreal projects\\facial-input-interface-for-ue5\\project file\\project\\intermediate\\build\\win64\\unrealeditor\\inc\\project\\uht\\inputdataconfig.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\projects\\unreal projects\\facial-input-interface-for-ue5\\project file\\project\\intermediate\\build\\win64\\x64\\projecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\projects\\unreal projects\\facial-input-interface-for-ue5\\project file\\project\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\project\\definitions.project.h",
+            "f:\\projects\\unreal projects\\facial-input-interface-for-ue5\\project file\\project\\source\\project\\inputdataconfig.h",
+            "e:\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputaction.h",
+            "e:\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputmodifiers.h",
+            "e:\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "e:\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
+            "e:\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputmodifiers.generated.h",
+            "e:\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputtriggers.h",
+            "e:\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputtriggers.generated.h",
+            "e:\\epic games\\ue_5.4\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputaction.generated.h",
+            "f:\\projects\\unreal projects\\facial-input-interface-for-ue5\\project file\\project\\intermediate\\build\\win64\\unrealeditor\\inc\\project\\uht\\inputdataconfig.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
