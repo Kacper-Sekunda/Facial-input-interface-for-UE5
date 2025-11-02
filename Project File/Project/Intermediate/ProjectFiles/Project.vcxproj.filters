@@ -51,5 +51,11 @@
     <ClInclude Include="..\..\Source\Project\Project.h">
       <Filter>Source\Project</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Project\TrackerManager.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\TrackerManager.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
