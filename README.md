@@ -1,2 +1,2 @@
 # Facial-input-interface-for-UE5
-A tracker that uses webcam input to track facial landmarks and trigger events within the Unreal Engine.
+A runtime facial input interface for unreal engine, using python and libraries.
