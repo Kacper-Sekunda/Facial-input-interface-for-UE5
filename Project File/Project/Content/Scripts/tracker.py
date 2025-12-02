@@ -50,6 +50,7 @@ args = parser.parse_args()
 
 client = SimpleUDPClient(args.ip, args.port)
 print(f"[OSC] Sending to {args.ip}:{args.port}")
+client.send_message("/face/loading", 1)
 
 # Mediapipe
 mp_face = mp.solutions.face_mesh
@@ -65,6 +66,7 @@ face_mesh = mp_face.FaceMesh(
 capture = cv2.VideoCapture(args.camera)
 if not capture.isOpened():
     raise RuntimeError("Cannot open camera")
+client.send_message("/face/loaded", 1)
 
 last_blink = 0
 last_mouth = 0
