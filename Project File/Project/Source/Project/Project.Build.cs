@@ -9,8 +9,9 @@ public class Project : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
-
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
+		
+		PublicAdditionalLibraries.AddRange(new string[] { "Mfplat.lib", "Mf.lib", "Mfuuid.lib", "Ole32.lib" });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
