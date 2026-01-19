@@ -15,6 +15,7 @@ void UTrackerManager::LaunchTracker(FString IP, FString Port, FString CameraInde
 	FString ScriptPath = FPaths::Combine(FPaths::ProjectContentDir(), TEXT("Scripts/tracker.py"));
 	FString Args = FString::Printf(TEXT("\"%s\" --ip %s --port %s --camera %s"), *ScriptPath, *IP, *Port, *CameraIndex);
 
+	// Debug
 	UE_LOG(LogTemp, Display, TEXT("Launching tracker: %s %s"), *PythonExe, *Args);
 	UE_LOG(LogTemp, Log, TEXT("Packaged path: %s"), *FPaths::ProjectDir());
 
@@ -30,6 +31,7 @@ void UTrackerManager::LaunchTracker(FString IP, FString Port, FString CameraInde
 		nullptr
 	);
 
+	// Debug
 	if (TrackerHandle.IsValid())
 	{
 		UE_LOG(LogTemp, Display, TEXT("Tracker launched"));
